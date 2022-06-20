@@ -172,7 +172,7 @@ end_op(void)
     wakeup(&log);
     release(&log.lock);
   }
-}
+}d
 
 // Copy modified blocks from cache to log.
 static void
